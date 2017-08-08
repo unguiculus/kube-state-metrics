@@ -1,4 +1,4 @@
-## v1.0.0-rc.1 / 2017-08-02
+## v1.0.0 / 2017-08-09
 
 * [CHANGE] Remove `kube_node_status_ready`, `kube_node_status_out_of_disk`, `kube_node_status_memory_pressure`, `kube_node_status_disk_pressure`, and `kube_node_status_network_unavailable` metrics in favor of one generic `kube_node_status_condition` metric.
 * [CHANGE] Flatten created by label on `kube_pod_info` metric.
